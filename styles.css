@@ -79,3 +79,10 @@ body {
 .CSS-Transitions:hover h2 {
     color: white;
 }
+table {
+    table-layout: fixed;
+    width: 40%;
+    border-collapse: collapse;
+    border: 1px solid hsl(var(--base-color), 90%);
+    color: hsl(210, 90%, 30%);
+}
