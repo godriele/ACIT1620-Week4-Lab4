@@ -62,3 +62,20 @@ body {
 .CSS-Transitions:hover h2 {
     color: white;
 }
+
+.CSS-Variables {
+    margin: 1rem;
+    transition: transform 0.3s ease;
+
+}
+
+.CSS-Variables:hover {
+    background-color: hsl(210, 90%, 30%);
+    cursor: pointer;
+    color: white;
+    transform: translateX(+5px);
+}
+
+.CSS-Transitions:hover h2 {
+    color: white;
+}
