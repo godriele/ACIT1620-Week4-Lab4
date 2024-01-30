@@ -27,3 +27,14 @@ body {
  .nav-button + .nav-button {
     margin-left: 10px;
  }
+
+ tr {
+    gap: 20px;
+ }
+
+ .nav-button:hover {
+    background-color: hsl(210, 90%, 30%);
+    color: white;
+    transform: translateX(10px);
+    transform: translateY(-5px);
+ }
