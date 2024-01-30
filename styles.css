@@ -13,3 +13,17 @@ header {
 body {
     margin: 0;
 }
+
+.nav-button {
+    padding: 10px ;
+    cursor: pointer;
+    transition: background-color 0.3s, transfrom 0.3sn box-shadow 0.3s;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 1rem;
+ }
+
+ .nav-button + .nav-button {
+    margin-left: 10px;
+ }
