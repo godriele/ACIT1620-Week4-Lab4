@@ -58,3 +58,7 @@ body {
     cursor: pointer;
     color: white;
  }
+
+.CSS-Transitions:hover h2 {
+    color: white;
+}
