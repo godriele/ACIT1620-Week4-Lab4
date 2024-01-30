@@ -38,3 +38,23 @@ body {
     transform: translateX(10px);
     transform: translateY(-5px);
  }
+
+ .nav-button:last-child{
+    margin-left: 0;
+ }
+
+ .CSS-Transitions h2 {
+    color: hsl(210, 90%, 40%);
+ }
+
+ .CSS-Transitions {
+    margin: 1rem;
+    transition: transfrom 0.3s ease;
+ }
+
+ .CSS-Transitions:hover {
+    background-color: hsl(210, 90%, 30%);
+    transform: translateX(+5px);
+    cursor: pointer;
+    color: white;
+ }
