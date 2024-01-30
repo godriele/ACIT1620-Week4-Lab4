@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-.nav-button {
+.a {
     padding: 10px ;
     cursor: pointer;
     transition: background-color 0.3s, transfrom 0.3sn box-shadow 0.3s;
@@ -24,7 +24,7 @@ body {
     margin: 1rem;
  }
 
- .nav-button + .nav-button {
+ .a + .a {
     margin-left: 10px;
  }
 
@@ -32,14 +32,14 @@ body {
     gap: 20px;
  }
 
- .nav-button:hover {
+ .a:hover {
     background-color: hsl(210, 90%, 30%);
     color: white;
     transform: translateX(10px);
     transform: translateY(-5px);
  }
 
- .nav-button:last-child{
+ .a:last-child{
     margin-left: 0;
  }
 
@@ -63,6 +63,10 @@ body {
     color: white;
 }
 
+.CSS-Variables h2{
+    Color: hsl(210, 90%, 40%);
+ }
+
 .CSS-Variables {
     margin: 1rem;
     transition: transform 0.3s ease;
@@ -74,18 +78,13 @@ body {
     cursor: pointer;
     color: white;
     transform: translateX(+5px);
+
 }
 
-.CSS-Transitions:hover h2 {
+.CSS-Variables:hover h2 {
     color: white;
 }
-table {
-    table-layout: fixed;
-    width: 40%;
-    border-collapse: collapse;
-    border: 1px solid hsl(var(--base-color), 90%);
-    color: hsl(210, 90%, 30%);
-}
+
 
 footer {
     text-align: center;
