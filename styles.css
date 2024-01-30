@@ -1,0 +1,15 @@
+header {
+    background-color: hsl(210, 90%, 30%);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url(Web.png);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+}
