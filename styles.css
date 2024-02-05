@@ -8,35 +8,49 @@ header {
     background-image: url(Web.png);
     background-size: cover;
     background-position: center;
+    border: 7px inset #1C6EA4;
 }
 
 body {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
 .a {
-    padding: 10px ;
+
+    width: auto;
+    padding: 7px ;
+    margin: 3px;
     cursor: pointer;
-    transition: background-color 0.3s, transfrom 0.3sn box-shadow 0.3s;
-    border-radius: 50px;
-    border: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    margin: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    color: hsl(210, 90%, 40%);
+    border-radius: 5px;
+    border: 1px solid rgb(177, 171, 171);
+    transition: all 0.8s ease;
+    box-shadow: -3px 4px 3px 0px rgba(0,0,0,0.43);
+   
  }
 
- .a + .a {
-    margin-left: 10px;
- }
 
- tr {
-    gap: 20px;
- }
+
 
  .a:hover {
     background-color: hsl(210, 90%, 30%);
     color: white;
-    transform: translateX(10px);
+    transform: translateX(5px);
     transform: translateY(-5px);
+    transition: transform 0.8s ease;
+   
  }
 
  .a:last-child{
@@ -48,15 +62,21 @@ body {
  }
 
  .CSS-Transitions {
-    margin: 1rem;
-    transition: transfrom 0.3s ease;
+   padding: 10px;
+   border: 1px;
+   transition: all 0.8s ease;
+
+   
  }
 
  .CSS-Transitions:hover {
     background-color: hsl(210, 90%, 30%);
-    transform: translateX(+5px);
+    transform: translateX(+10px);
+  
     cursor: pointer;
     color: white;
+    transition: transform 0.8s ease;
+
  }
 
 .CSS-Transitions:hover h2 {
@@ -68,17 +88,19 @@ body {
  }
 
 .CSS-Variables {
-    margin: 1rem;
-    transition: transform 0.3s ease;
-
+    padding: 10px;
+    border: 1px;
+    transition: all 0.8s ease;
 }
 
 .CSS-Variables:hover {
     background-color: hsl(210, 90%, 30%);
+    transform: translateX(+10px);
+
     cursor: pointer;
     color: white;
-    transform: translateX(+5px);
-
+    transition: transform 0.8s ease;
+  
 }
 
 .CSS-Variables:hover h2 {
